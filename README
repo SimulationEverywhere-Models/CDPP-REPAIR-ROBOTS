@@ -1,0 +1,40 @@
+Student Name: Christian Jacques
+Student number: 313216
+
+THIS MODEL REQUIRES MINIMUM MODIFICATIONS TO BE EXECUTED UNDER THE ECLIPSE PLATFORM.
+READ THE CONTENTS OF THE *.BAT FILES AND USE THEM TO RUN THE SIMULATIONS.
+
+This is the readme file for assignment 2
+
+INSTALLATION
+------------
+The zip file should include the following files:
+
+README - file you are reading now
+repair_robot.ma - Cell-DEVS model for this assignment
+xxx.ma - Dummy Cell-DEVS model used with Graflog.  See below for details.
+collision_test1.bat - batch file to run simulation 
+collision_test2.bat - batch file to run simulation 
+collision_test3.bat - batch file to run simulation 
+collision_test1.val
+collision_test2.val
+collision_test3.val
+damage_repair_test1.bat - batch file to run simulation  
+damage_repair_test2.bat - batch file to run simulation 
+damage_repair_test1.val
+damage_repair_test2.val
+repair_robot.pal - Palette to use when looking at my .drw files with the Graflog applet. 
+
+The batch files were written assuming the simu.exe and drawlog.exe executables were located in the directory above where the batch files are located.
+
+RUNNING SIMULATIONS
+-------------------
+
+1. It seems Graflog has a bug where it cannot run a valid .drw if the associated .ma is a three dimensional model.  I guess Graflog cannot get height and width from the dim(x,y,z) found in a three dimensional .ma.  Therefore I provided xxx.ma which is the .ma file to use to see all .drw with Graflog.
+
+2. Execute the batch files in any order you want.  They each produce a .log and a .drw such that: *.bat produces *.log and *.drw.
+
+3. Have a look at the .drw using xxx.ma and repair_robot.pal.
+
+4. My report explains what the .drw are.
+
